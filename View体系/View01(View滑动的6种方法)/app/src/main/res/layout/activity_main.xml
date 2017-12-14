@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.youli.view01.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实现View滑动的六种方法:\n1、layout()\n2、offsetLeftAndRight()与offsetTopAndBottom()\n3、LayoutParams\n4、动画\n5、scollTo与scollBy\n6、Scroller" />
+
+
+    <com.youli.view01.MyView
+        android:id="@+id/myView"
+        android:background="#F00"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+       android:layout_margin="50dp"
+        />
+
+
+</LinearLayout>
